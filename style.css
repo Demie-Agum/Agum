@@ -514,7 +514,7 @@ main {
     padding: 0 5%;
     box-sizing: border-box;
     text-align: center; 
-
+}
 .container {
     background-color: #ffffff;
     padding: 5% 10%;
@@ -597,5 +597,4 @@ main {
 }
 .head {
     text-align: center;
-}
 }
