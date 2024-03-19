@@ -509,27 +509,32 @@ body {
 
 /* things to do in taguig*/
 main {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 20px auto;
-    padding: 0 20px;
-}
+    padding: 0 5%;
+    box-sizing: border-box;
+    text-align: center; 
 
 .container {
     background-color: #ffffff;
-    padding: 30px;
+    padding: 5% 10%;
     border-radius: 10px;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    text-align: left;
 }
 
 .container h2 {
-    font-size: 24px;
+    font-size: 2rem;
     margin-bottom: 15px;
+    text-align: center; 
 }
 
 .container p {
-    font-size: 16px;
+    font-size: 1.2rem;
     margin-bottom: 20px;
+    text-align: center; 
 }
 
 .container img {
@@ -537,42 +542,60 @@ main {
     height: auto;
     border-radius: 5px;
     margin-bottom: 15px;
-}
-.activity h2 {
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.activity .container h2 {
-    text-align: center;
-}
-@media only screen and (max-width: 768px) {
+/* Media queries for responsiveness */
+@media only screen and (max-width: 1200px) {
     .container {
-        padding: 20px;
+        padding: 10%;
     }
 
     .container h2 {
-        font-size: 20px;
+        font-size: 1.8rem;
         margin-bottom: 10px;
     }
 
     .container p {
-        font-size: 14px;
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 15%;
+    }
+
+    .container h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .container p {
+        font-size: 0.9rem;
         margin-bottom: 15px;
     }
 }
 
 @media only screen and (max-width: 480px) {
     .container {
-        padding: 15px;
+        padding: 20%;
     }
 
     .container h2 {
-        font-size: 18px;
+        font-size: 1.2rem;
         margin-bottom: 5px;
     }
 
     .container p {
-        font-size: 12px;
+        font-size: 0.8rem;
         margin-bottom: 10px;
     }
+}
+.head {
+    text-align: center;
+}
 }
